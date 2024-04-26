@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>41123119協同產品設計實習 - 41123119 w10</title><link href="./" rel="alternate"></link><link href="./feeds/41123119-w10.atom.xml" rel="self"></link><id>./</id><updated>2024-04-26T17:00:00+08:00</updated><entry><title>2024 w10</title><link href="./41123119-w10.html" rel="alternate"></link><published>2024-04-26T17:00:00+08:00</published><updated>2024-04-26T09:09:02+08:00</updated><author><name>41123119</name></author><id>tag:None,2024-04-26:./41123119-w10.html</id><summary type="html">&lt;p&gt;2024 w10課程.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>41123119協同產品設計實習 - 41123119 w10</title><link href="./" rel="alternate"></link><link href="./feeds/41123119-w10.atom.xml" rel="self"></link><id>./</id><updated>2024-04-26T17:00:00+08:00</updated><entry><title>2024 w10</title><link href="./41123119-w10.html" rel="alternate"></link><published>2024-04-26T17:00:00+08:00</published><updated>2024-04-26T09:23:57+08:00</updated><author><name>41123119</name></author><id>tag:None,2024-04-26:./41123119-w10.html</id><summary type="html">&lt;p&gt;2024 w10課程.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 w10課程.&lt;/p&gt;
 
 
 &lt;h1&gt;今完成事項&lt;/h1&gt;
-&lt;p&gt;1.把期中latax個人作業完成
+&lt;p&gt;1.把期中latax個人作業完成 
+&lt;a href="https://raw.githubusercontent.com/QIU0908/cd2024/main/images/latax%20t6g4.txt"&gt;latax txt 檔&lt;/a&gt;
+&lt;a href="https://github.com/QIU0908/cd2024/blob/main/images/homework.pdf"&gt;latax pdf 檔&lt;/a&gt;
 2.整理之前的blog&lt;/p&gt;</content><category term="41123119 w10"></category><category term="網誌編寫"></category><category term="pelican"></category></entry></feed>
