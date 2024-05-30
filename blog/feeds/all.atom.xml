@@ -1,16 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>41123119協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-05-17T07:01:27+08:00</updated><entry><title>41123119 w12</title><link href="./41123119-w12.html" rel="alternate"></link><published>2024-05-10T17:00:00+08:00</published><updated>2024-05-17T06:49:39+08:00</updated><author><name>41123119</name></author><id>tag:None,2024-05-10:./41123119-w12.html</id><summary type="html">&lt;p&gt;2024 w12課程.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>41123119協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-05-31T17:00:00+08:00</updated><entry><title>41123119 w15</title><link href="./41123119-w15.html" rel="alternate"></link><published>2024-05-31T17:00:00+08:00</published><updated>2024-05-30T14:54:09+08:00</updated><author><name>41123119</name></author><id>tag:None,2024-05-31:./41123119-w15.html</id><summary type="html">&lt;p&gt;2024 w12課程.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2024 w12課程.&lt;/p&gt;
+
+
+&lt;h1&gt;今完成事項&lt;/h1&gt;
+&lt;p&gt;&lt;br&gt;被分配到的任務 為 實現平衡台可動&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;以下說明方法&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;step1.匯入組合stl&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="577" src="/images/b1.png" width="800"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;step2. Edit &amp;gt; Shape groping / merging &amp;gt; divide // 分解組合圖 成零件圖&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="483" src="/images/b2.png" width="577"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;step3. Edit &amp;gt; Shape reference france &amp;gt; relocate mesh center // 零件原點從組合圖原點 改成 零件質量原點&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="547" src="/images/b3.png" width="676"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;step4. Add &amp;gt;Joint &amp;gt; Revolute // 新增joint 取代 圓桿位置&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="657" src="/images/b4.png" width="711"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;step5.Edit &amp;gt; Shape groping / merging &amp;gt; group // 分別把 頂部 及 基底 的小零件 組合成 group&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="649" src="/images/b5.png" width="800"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;step6. 接著建立從屬關係 底板 &amp;gt; joint 1 &amp;gt; 頂板 &amp;gt; 2X{ motor 1. &amp;gt;長桿 1.&amp;gt;joint 2 }&amp;gt;接回 底板&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="429" src="/images/b6.png" width="371"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;step7.各部件屬性 如下&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="907" src="/images/b71.png" width="716"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="853" src="/images/b72.png" width="684"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="818" src="/images/b73.png" width="695"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="876" src="/images/b74.png" width="703"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="442" src="/images/b75.png" width="697"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="441" src="/images/b76.png" width="687"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;step8.加入球&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="977" src="/images/b8.png" width="695"&gt;&lt;/p&gt;
+&lt;p&gt;step9.完成&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="614" src="/images/b9.png" width="800"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="color: #ff9900;"&gt;&lt;strong&gt;問題:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;1.底座件 連到 頂板的部分&lt;/p&gt;
+&lt;p&gt;解決:&lt;/p&gt;
+&lt;p&gt;1.複製 沒連到 零件 偏移 x 0.081 重新插入 底板零件 取代第一個底板位置&lt;/p&gt;
+&lt;p&gt;就不用重畫了&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</content><category term="41123119 w15"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>41123119 w12</title><link href="./41123119-w12.html" rel="alternate"></link><published>2024-05-10T17:00:00+08:00</published><updated>2024-05-30T14:30:51+08:00</updated><author><name>41123119</name></author><id>tag:None,2024-05-10:./41123119-w12.html</id><summary type="html">&lt;p&gt;2024 w12課程.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 w12課程.&lt;/p&gt;
 
 
 &lt;h1&gt;今完成事項&lt;/h1&gt;
 &lt;p&gt;1.平台繪圖完成 &lt;a href="https://github.com/QIU0908/cd2024/blob/main/downloads/%E5%B9%B3%E5%8F%B0.zip"&gt;檔案&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;2.&lt;a href="https://github.com/mdecd2024/2a-midag2/tree/6f85006bcb80f19ffcfcd0457c28290196604caf"&gt;分組倉儲設為評分倉儲子模組&lt;/a&gt;&lt;/p&gt;</content><category term="41123119 w12"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>41123119 w11</title><link href="./41123119-w11.html" rel="alternate"></link><published>2024-05-03T17:00:00+08:00</published><updated>2024-05-17T07:01:27+08:00</updated><author><name>41123119</name></author><id>tag:None,2024-05-03:./41123119-w11.html</id><summary type="html">&lt;p&gt;2024 w11課程.&lt;/p&gt;
+&lt;p&gt;2.&lt;a href="https://github.com/mdecd2024/2a-midag2/tree/6f85006bcb80f19ffcfcd0457c28290196604caf"&gt;分組倉儲設為評分倉儲子模組&lt;/a&gt;&lt;/p&gt;</content><category term="41123119 w12"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>41123119 w11</title><link href="./41123119-w11.html" rel="alternate"></link><published>2024-05-03T17:00:00+08:00</published><updated>2024-05-30T14:30:51+08:00</updated><author><name>41123119</name></author><id>tag:None,2024-05-03:./41123119-w11.html</id><summary type="html">&lt;p&gt;2024 w11課程.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 w11課程.&lt;/p&gt;
 
 
 &lt;h1&gt;今完成事項&lt;/h1&gt;
-&lt;p&gt;1.&lt;a href="https://mdecd2024.github.io/2astud-2asite/content/g2.html"&gt;個人心得加入子模組&lt;/a&gt;&lt;/p&gt;</content><category term="41123119 w11"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>41123119 w10</title><link href="./41123119-w10.html" rel="alternate"></link><published>2024-04-26T17:00:00+08:00</published><updated>2024-05-17T05:16:13+08:00</updated><author><name>41123119</name></author><id>tag:None,2024-04-26:./41123119-w10.html</id><summary type="html">&lt;p&gt;2024 w10課程.&lt;/p&gt;
+&lt;p&gt;1.&lt;a href="https://mdecd2024.github.io/2astud-2asite/content/g2.html"&gt;個人心得加入子模組&lt;/a&gt;&lt;/p&gt;</content><category term="41123119 w11"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>41123119 w10</title><link href="./41123119-w10.html" rel="alternate"></link><published>2024-04-26T17:00:00+08:00</published><updated>2024-05-30T14:30:51+08:00</updated><author><name>41123119</name></author><id>tag:None,2024-04-26:./41123119-w10.html</id><summary type="html">&lt;p&gt;2024 w10課程.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 w10課程.&lt;/p&gt;
 
 
@@ -110,24 +157,24 @@ fetch_csv_data()
 &lt;p&gt;&lt;span&gt;摘要內容 :&amp;nbsp;平衡問題是一個持續的研究挑戰，適用於從教育到交通的許多興趣領域。二自由度球平衡實驗室試驗台是瞭解控制系統的重要設備。本文重點介紹了在板上平衡球的機械設計。使用電阻式觸摸屏獲取球體位置數據，使用步進電機和位置傳感器控制平台傾斜角度。 設計基於 AVR 微控制器的雙環下屬控制系統，使用 PID 控制器維持球體平衡。&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;h4&gt;&lt;span&gt;文章六 :&amp;nbsp;2D Ball Balancer Control using QUARC (使用 QUARC 的 2D 球平衡器控制)&lt;/span&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;span&gt;摘要內容 :&amp;nbsp;使用 QUARC 軟體設計和實現球體在二維平台上的位置控制。 設計 PD 和 PID 控制器，並探討設定點權重和積分器抗飽和等控制技術。 使用攝像頭讀取球體位置，並進行校準和轉換。&lt;/span&gt;&lt;/p&gt;</content><category term="41123119 w10"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>41123119 w9</title><link href="./41123119-w9.html" rel="alternate"></link><published>2024-04-19T17:00:00+08:00</published><updated>2024-05-17T05:16:13+08:00</updated><author><name>41123119</name></author><id>tag:None,2024-04-19:./41123119-w9.html</id><summary type="html">&lt;p&gt;2024 w9課程.&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;摘要內容 :&amp;nbsp;使用 QUARC 軟體設計和實現球體在二維平台上的位置控制。 設計 PD 和 PID 控制器，並探討設定點權重和積分器抗飽和等控制技術。 使用攝像頭讀取球體位置，並進行校準和轉換。&lt;/span&gt;&lt;/p&gt;</content><category term="41123119 w10"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>41123119 w9</title><link href="./41123119-w9.html" rel="alternate"></link><published>2024-04-19T17:00:00+08:00</published><updated>2024-05-30T14:30:51+08:00</updated><author><name>41123119</name></author><id>tag:None,2024-04-19:./41123119-w9.html</id><summary type="html">&lt;p&gt;2024 w9課程.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 w9課程.&lt;/p&gt;
 
 
 &lt;h1&gt;今完成事項&lt;/h1&gt;
 &lt;p&gt;1.把一分鐘的影片報告放到各分組網誌
-2.整理之前的blog&lt;/p&gt;</content><category term="41123119 w9"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>41123119 w8</title><link href="./41123119-w8.html" rel="alternate"></link><published>2024-04-12T17:00:00+08:00</published><updated>2024-05-17T05:16:13+08:00</updated><author><name>41123119</name></author><id>tag:None,2024-04-12:./41123119-w8.html</id><summary type="html">&lt;p&gt;2024 w8課程.&lt;/p&gt;
+2.整理之前的blog&lt;/p&gt;</content><category term="41123119 w9"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>41123119 w8</title><link href="./41123119-w8.html" rel="alternate"></link><published>2024-04-12T17:00:00+08:00</published><updated>2024-05-30T14:30:51+08:00</updated><author><name>41123119</name></author><id>tag:None,2024-04-12:./41123119-w8.html</id><summary type="html">&lt;p&gt;2024 w8課程.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 w8課程.&lt;/p&gt;
 
 
 &lt;h1&gt;今完成事項&lt;/h1&gt;
 &lt;p&gt;一分鐘的影片報告&lt;/p&gt;
 &lt;p&gt;&lt;a href="
-https://nfuedu-my.sharepoint.com/:v:/g/personal/41123119_nfu_edu_tw/EeBNVN_SQYhJltBwssH5feoB2PkspUdkD2-Ore2BqB424Q?e=2pBARL"&gt;影片&lt;/a&gt;&lt;/p&gt;</content><category term="41123119 w8"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>41123119 w7</title><link href="./41123119-w7.html" rel="alternate"></link><published>2024-04-05T17:00:00+08:00</published><updated>2024-05-17T05:16:13+08:00</updated><author><name>41123119</name></author><id>tag:None,2024-04-05:./41123119-w7.html</id><summary type="html">&lt;p&gt;2024 w7課程.&lt;/p&gt;
+https://nfuedu-my.sharepoint.com/:v:/g/personal/41123119_nfu_edu_tw/EeBNVN_SQYhJltBwssH5feoB2PkspUdkD2-Ore2BqB424Q?e=2pBARL"&gt;影片&lt;/a&gt;&lt;/p&gt;</content><category term="41123119 w8"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>41123119 w7</title><link href="./41123119-w7.html" rel="alternate"></link><published>2024-04-05T17:00:00+08:00</published><updated>2024-05-30T14:30:51+08:00</updated><author><name>41123119</name></author><id>tag:None,2024-04-05:./41123119-w7.html</id><summary type="html">&lt;p&gt;2024 w7課程.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 w7課程.&lt;/p&gt;
 
 
-&lt;h1&gt;連假&lt;/h1&gt;</content><category term="41123119 w7"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>41123119 w6</title><link href="./41123119-w6.html" rel="alternate"></link><published>2024-03-29T17:00:00+08:00</published><updated>2024-05-17T05:16:13+08:00</updated><author><name>41123119</name></author><id>tag:None,2024-03-29:./41123119-w6.html</id><summary type="html">&lt;p&gt;2024 w6課程.&lt;/p&gt;
+&lt;h1&gt;連假&lt;/h1&gt;</content><category term="41123119 w7"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>41123119 w6</title><link href="./41123119-w6.html" rel="alternate"></link><published>2024-03-29T17:00:00+08:00</published><updated>2024-05-30T14:30:51+08:00</updated><author><name>41123119</name></author><id>tag:None,2024-03-29:./41123119-w6.html</id><summary type="html">&lt;p&gt;2024 w6課程.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 w6課程.&lt;/p&gt;
 
 
@@ -150,7 +197,7 @@ https://nfuedu-my.sharepoint.com/:v:/g/personal/41123119_nfu_edu_tw/EeBNVN_SQYhJ
 &lt;p&gt;14.合併後的branch 只要沒有與main有衝突的合併應該可以一直用&lt;/p&gt;
 
 &lt;h1&gt;問題&lt;/h1&gt;
-&lt;p&gt;既然可以用從遠端更新子模組 那子模組可以更新回遠端嗎?&lt;/p&gt;</content><category term="41123119 w6"></category><category term="網誌編寫"></category><category term="pelican"></category><category term="心得"></category></entry><entry><title>41123119 w5</title><link href="./41123119-w5.html" rel="alternate"></link><published>2024-03-22T17:00:00+08:00</published><updated>2024-05-17T05:16:13+08:00</updated><author><name>41123119</name></author><id>tag:None,2024-03-22:./41123119-w5.html</id><summary type="html">&lt;p&gt;2024 w5課程.&lt;/p&gt;
+&lt;p&gt;既然可以用從遠端更新子模組 那子模組可以更新回遠端嗎?&lt;/p&gt;</content><category term="41123119 w6"></category><category term="網誌編寫"></category><category term="pelican"></category><category term="心得"></category></entry><entry><title>41123119 w5</title><link href="./41123119-w5.html" rel="alternate"></link><published>2024-03-22T17:00:00+08:00</published><updated>2024-05-30T14:30:51+08:00</updated><author><name>41123119</name></author><id>tag:None,2024-03-22:./41123119-w5.html</id><summary type="html">&lt;p&gt;2024 w5課程.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 w5課程.&lt;/p&gt;
 
 
@@ -160,7 +207,7 @@ https://nfuedu-my.sharepoint.com/:v:/g/personal/41123119_nfu_edu_tw/EeBNVN_SQYhJ
 &lt;p&gt;&lt;a href="
 https://nfuedu-my.sharepoint.com/:v:/g/personal/41123119_nfu_edu_tw/EeGW7m9iY5tJkDUgzzq3fH4B83ETe0vDPqSYLORW6I3B5g?e=58uh5Q"&gt;影片&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;及 &lt;/p&gt;
-&lt;p&gt;&lt;a href=" https://nfuedu-my.sharepoint.com/:t:/g/personal/41123119_nfu_edu_tw/EVJQRrVtylVKtuM7_F2ElKABxKFPszDOjyckey4MCZCTjw?e=RFxfP1"&gt;逐字稿&lt;/a&gt;&lt;/p&gt;</content><category term="41123119 w5"></category><category term="網誌編寫"></category><category term="pelican"></category><category term="字幕"></category><category term="影片"></category></entry><entry><title>41123119 w4</title><link href="./41123119-w4.html" rel="alternate"></link><published>2024-03-15T17:00:00+08:00</published><updated>2024-05-17T05:16:13+08:00</updated><author><name>41123119</name></author><id>tag:None,2024-03-15:./41123119-w4.html</id><summary type="html">&lt;p&gt;2024 w4課程.&lt;/p&gt;
+&lt;p&gt;&lt;a href=" https://nfuedu-my.sharepoint.com/:t:/g/personal/41123119_nfu_edu_tw/EVJQRrVtylVKtuM7_F2ElKABxKFPszDOjyckey4MCZCTjw?e=RFxfP1"&gt;逐字稿&lt;/a&gt;&lt;/p&gt;</content><category term="41123119 w5"></category><category term="網誌編寫"></category><category term="pelican"></category><category term="字幕"></category><category term="影片"></category></entry><entry><title>41123119 w4</title><link href="./41123119-w4.html" rel="alternate"></link><published>2024-03-15T17:00:00+08:00</published><updated>2024-05-30T14:30:51+08:00</updated><author><name>41123119</name></author><id>tag:None,2024-03-15:./41123119-w4.html</id><summary type="html">&lt;p&gt;2024 w4課程.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 w4課程.&lt;/p&gt;
 
 
@@ -172,7 +219,7 @@ https://nfuedu-my.sharepoint.com/:v:/g/personal/41123119_nfu_edu_tw/EeGW7m9iY5tJ
 &lt;p&gt;&lt;a href="
 https://nfuedu-my.sharepoint.com/:v:/g/personal/41123119_nfu_edu_tw/EeGW7m9iY5tJkDUgzzq3fH4B83ETe0vDPqSYLORW6I3B5g?e=58uh5Q"&gt;影片&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;及 &lt;/p&gt;
-&lt;p&gt;&lt;a href=" https://nfuedu-my.sharepoint.com/:t:/g/personal/41123119_nfu_edu_tw/EVJQRrVtylVKtuM7_F2ElKABxKFPszDOjyckey4MCZCTjw?e=RFxfP1"&gt;逐字稿&lt;/a&gt;&lt;/p&gt;</content><category term="41123119 w4"></category><category term="網誌編寫"></category><category term="pelican"></category><category term="字幕"></category><category term="影片"></category></entry><entry><title>41123119 w3</title><link href="./41123119-w3.html" rel="alternate"></link><published>2024-03-08T17:00:00+08:00</published><updated>2024-05-17T05:16:13+08:00</updated><author><name>41123119</name></author><id>tag:None,2024-03-08:./41123119-w3.html</id><summary type="html">&lt;p&gt;2024 w3課程.&lt;/p&gt;
+&lt;p&gt;&lt;a href=" https://nfuedu-my.sharepoint.com/:t:/g/personal/41123119_nfu_edu_tw/EVJQRrVtylVKtuM7_F2ElKABxKFPszDOjyckey4MCZCTjw?e=RFxfP1"&gt;逐字稿&lt;/a&gt;&lt;/p&gt;</content><category term="41123119 w4"></category><category term="網誌編寫"></category><category term="pelican"></category><category term="字幕"></category><category term="影片"></category></entry><entry><title>41123119 w3</title><link href="./41123119-w3.html" rel="alternate"></link><published>2024-03-08T17:00:00+08:00</published><updated>2024-05-30T14:30:51+08:00</updated><author><name>41123119</name></author><id>tag:None,2024-03-08:./41123119-w3.html</id><summary type="html">&lt;p&gt;2024 w3課程.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 w3課程.&lt;/p&gt;
 
 
@@ -183,14 +230,14 @@ https://nfuedu-my.sharepoint.com/:v:/g/personal/41123119_nfu_edu_tw/EeGW7m9iY5tJ
 &lt;p&gt;3. ./gen_blog&lt;/p&gt;
 &lt;p&gt;4.git add .&lt;/p&gt;
 &lt;p&gt;5.git commit -m" "&lt;/p&gt;
-&lt;p&gt;6.git push&lt;/p&gt;</content><category term="41123119 w3"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>41123119 w2</title><link href="./41123119-w2.html" rel="alternate"></link><published>2024-03-01T17:00:00+08:00</published><updated>2024-05-17T05:16:13+08:00</updated><author><name>41123119</name></author><id>tag:None,2024-03-01:./41123119-w2.html</id><summary type="html">&lt;p&gt;2024 w2課程.&lt;/p&gt;
+&lt;p&gt;6.git push&lt;/p&gt;</content><category term="41123119 w3"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>41123119 w2</title><link href="./41123119-w2.html" rel="alternate"></link><published>2024-03-01T17:00:00+08:00</published><updated>2024-05-30T14:30:51+08:00</updated><author><name>41123119</name></author><id>tag:None,2024-03-01:./41123119-w2.html</id><summary type="html">&lt;p&gt;2024 w2課程.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 w2課程.&lt;/p&gt;
 
 
 &lt;h1&gt;今完成事項&lt;/h1&gt;
 &lt;p&gt;1.分組&lt;/p&gt;
 &lt;p&gt;2.建立協同網站&lt;/p&gt;
-&lt;p&gt;3.replit協同網站github&lt;/p&gt;</content><category term="41123119 w2"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>41123119 w1</title><link href="./41123119-w1.html" rel="alternate"></link><published>2024-02-23T17:00:00+08:00</published><updated>2024-05-17T05:16:13+08:00</updated><author><name>41123119</name></author><id>tag:None,2024-02-23:./41123119-w1.html</id><summary type="html">&lt;p&gt;2024 w1課程.&lt;/p&gt;
+&lt;p&gt;3.replit協同網站github&lt;/p&gt;</content><category term="41123119 w2"></category><category term="網誌編寫"></category><category term="pelican"></category></entry><entry><title>41123119 w1</title><link href="./41123119-w1.html" rel="alternate"></link><published>2024-02-23T17:00:00+08:00</published><updated>2024-05-30T14:30:51+08:00</updated><author><name>41123119</name></author><id>tag:None,2024-02-23:./41123119-w1.html</id><summary type="html">&lt;p&gt;2024 w1課程.&lt;/p&gt;
 &lt;p&gt;建立個人倉儲&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 w1課程.&lt;/p&gt;
 &lt;p&gt;建立個人倉儲&lt;/p&gt;
