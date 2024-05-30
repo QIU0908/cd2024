@@ -142,14 +142,26 @@ img.add_border {
           </div>
 
         </header>
-    <div id="tipue_search_content">3.任務三 << <a href='3.任務三.html'>Previous</a> <a href='w15.html'>Next</a> >> w15<br /><h1>w11</h1>
-<div>
-<div><span></span></div>
-</div>
-<p>1.平台繪圖完成 <a href="https://github.com/QIU0908/cd2024/blob/main/downloads/%E5%B9%B3%E5%8F%B0.zip">檔案</a></p>
-<p>2.<a href="https://github.com/mdecd2024/2a-midag2/tree/6f85006bcb80f19ffcfcd0457c28290196604caf">分組倉儲設為評分倉儲子模組</a></p>
+    <div id="tipue_search_content">w11 << <a href='w11.html'>Previous</a> <a href='cmsimde.html'>Next</a> >> cmsimde<br /><h1>w15</h1>
+<p><br/>被分配到的任務 為 實現平衡台可動</p>
+<p><br/>以下說明方法</p>
+<p><br/>step1.匯入組合stl</p>
+<p><br/>step2. Edit &gt; Shape groping / merging &gt; divide // 分解組合圖 成零件圖</p>
+<p><br/>step3. Edit &gt; Shape reference france &gt; relocate mesh center // 零件原點從組合圖原點 改成 零件質量原點</p>
+<p><br/>step4. Add &gt;Joint &gt; Revolute // 新增joint 取代 圓桿位置</p>
+<p><br/>step5.Edit &gt; Shape groping / merging &gt; group // 分別把 頂部 及 基底 的小零件 組合成 group</p>
+<p><br/>step6. 接著建立從屬關係 底板 &gt; joint 1 &gt; 頂板 &gt; 2X{ motor 1. &gt;長桿 1.&gt;joint 2 }&gt;接回 底板</p>
 <p></p>
-<br />3.任務三 << <a href='3.任務三.html'>Previous</a> <a href='w15.html'>Next</a> >> w15</div>
+<p>step7.各部件屬性 如下</p>
+<p></p>
+<p>step8.加入球</p>
+<p></p>
+<p>step9.完成</p>
+<p>問題:</p>
+<p>1.底座件 連到 頂板的部分</p>
+<p>解決:</p>
+<p>1.複製 沒連到 零件 偏移 x 0.081 重新插入 底板零件 取代第一個底板位置</p>
+<p>就不用重畫了</p><br />w11 << <a href='w11.html'>Previous</a> <a href='cmsimde.html'>Next</a> >> cmsimde</div>
 
     <!-- footer -->
       <div class="container">
